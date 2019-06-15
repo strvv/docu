@@ -1,0 +1,8 @@
+1. Target mpu stm8s103/5?
+2. data to logometer from:
+ a. adc - to pwm (temp *C) - 90*
+ b. doc - to pwm (fuel L/G) - 90*
+ c. from uart to 2xpwm - sin-cos 270*
+ d. from capture timer to 2xpwm - sin-cos 270
+3. data from ... to chains leds - chairplex. 8 led x any
+
